@@ -1,0 +1,44 @@
+.header{
+    display: flex; /* flex is goinf to display all children under header horizontally in a row */
+    align-items: center; /* makes all same height and can only use it after display flex */
+    justify-content: space-between; /* put space between each div(children) inside header */
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.header__logo{
+    height: 25px;
+    object-fit: contain; /* do this for every image */
+    margin-left: 20px;
+}
+
+.header__input{
+    display: flex; 
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+}
+
+.header__icon{
+    margin-right: 8px;
+}
+
+.header__inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+
+.header__icons{
+    display: flex; 
+    align-items: center;
+}
+
+.header__input > input{ /* target the input field of .header__input */
+    flex: 1; /* gives more space to input */
+    border: none;
+}

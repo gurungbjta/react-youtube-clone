@@ -1,6 +1,6 @@
 // shortcut was: rfce
-
 import React from 'react'
+import './Header.css'
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import VideoCallIcon from '@material-ui/icons/VideoCall';
@@ -12,15 +12,22 @@ import profile from './images/profile.png';
 function Header() {
     return (
         <div className="header">
-            <h1>I am a header</h1>
-            <MenuIcon />
-            <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" alt=""/>
-            <input type="text"/>
-            <SearchIcon />
-            <VideoCallIcon />
-            <AppsIcon />
-            <NotificationsIcon />
-            <Avatar src={profile} alt="profile pic" />
+            <div className="header__left">
+                <MenuIcon />
+                <img className="header__logo" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" alt=""/>
+            </div>
+
+            <div className="header__input">
+                <input placeholder="Search" type="text"/>
+                <SearchIcon className="header__inputButton" />
+            </div>
+
+            <div className="header__icons">
+                <VideoCallIcon className="header__icon" />
+                <AppsIcon className="header__icon" />
+                <NotificationsIcon className="header__icon" />
+                <Avatar src={profile} alt="profile pic" />
+            </div>
         </div>
     )
 }
