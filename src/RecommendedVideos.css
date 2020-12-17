@@ -9,3 +9,8 @@
     margin-left: 5px;
     margin-bottom: 20px;
 }
+
+.recommendedVideos__videos{
+    display: flex; /* arrange them in horizontal row */
+    flex-wrap: wrap; /* if they don't fit, wrap them up in next lines and is responsive by page size */
+}

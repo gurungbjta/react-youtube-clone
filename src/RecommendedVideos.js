@@ -16,6 +16,8 @@ import dreaming from './images/dreaming.png';
 import cat from './images/cat.png';
 import paul from './images/paul.png';
 import mellow from './images/mellow.png';
+import how from './images/how.png';
+import new_music from './images/new_music.png';
 
 function RecommendedVideos() {
     return (
@@ -91,6 +93,14 @@ function RecommendedVideos() {
                 views="401K views" 
                 timestamp="7 months ago"
                 channelImage={mellow}
+                />
+                <VideoCard 
+                image={how}
+                title="[MV] XIA(JUNSU) - How Can I Love You l 태양의 후예 OST Part.10" 
+                channel="MUSIC&NEW 뮤직앤뉴"
+                views="16M views" 
+                timestamp="4 years ago"
+                channelImage={new_music}
                 />
 
             </div>
