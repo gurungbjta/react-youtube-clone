@@ -1,0 +1,4 @@
+.sidebarRow{
+    display: flex; /* display side by side in a row */
+    align-items: center; /* to make same bottom height */
+}
