@@ -1,3 +1,11 @@
 .sidebar{
     flex: 0.2; /* give sidebar only 20% of the entire container as flex goes from 0-1*/
 }
+
+.sidebar > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
