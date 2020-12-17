@@ -36,19 +36,19 @@ function RecommendedVideos() {
                 <VideoCard 
                 image={eun_woo}
                 title="EUNWOO LIKE 👍🏻 ‘Making cake for the first time of my life 🚗'" 
-                channel="Meiyu ASTRO 아스트로"
+                channel="ASTRO 아스트로"
                 views="2M views" 
                 timestamp="March 30, 2020"
                 channelImage={astro}
                 />
 
                 <VideoCard 
-                image={cha_eun_woo}
-                title="EUNWOO LIKE👍🏻 'JUST ONE 10 MINUTE a small record #1'" 
-                channel="ASTRO 아스트로"
-                views="568K views" 
-                timestamp="Nov 17, 2019"
-                channelImage={astro}
+                image={aloha}
+                title="Davichi (다비치) - Aloha [SketchBook / ep.459]" 
+                channel="KBS World"
+                views="668K views" 
+                timestamp="1 year ago"
+                channelImage={kbs}
                 />
 
                 <VideoCard 
@@ -61,13 +61,14 @@ function RecommendedVideos() {
                 />
 
                 <VideoCard 
-                image={aloha}
-                title="Davichi (다비치) - Aloha [SketchBook / ep.459]" 
-                channel="KBS World"
-                views="668K views" 
-                timestamp="1 year ago"
-                channelImage={kbs}
+                image={cha_eun_woo}
+                title="EUNWOO LIKE👍🏻 'JUST ONE 10 MINUTE a small record #1'" 
+                channel="ASTRO 아스트로"
+                views="568K views" 
+                timestamp="Nov 17, 2019"
+                channelImage={astro}
                 />
+                
                 
                 <VideoCard 
                 image={standing_egg}
