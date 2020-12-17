@@ -1,3 +1,11 @@
 .recommendedVideos{
     flex: 0.8; /* give recommendedVideos rest of the 80% of the entire flex */
+    background-color: #f9f9f9; /* slightly gray color */
+    padding: 40px 20px; /* top-bottom: 40px and left-right: 20px */
+    padding-bottom: 0;
+}
+
+.recommendedVideos > h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
 }
