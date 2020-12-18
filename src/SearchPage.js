@@ -10,8 +10,11 @@ import last from './images/last.png'
 import kill from './images/kill.png'
 import whistle from './images/whistle.png'
 import solo from './images/solo.png'
+import how_you from './images/how_you.png'
+import icecream from './images/icecream.png'
+import dance from './images/dance.png'
+import house1 from './images/house1.png'
 import VideoRow from './VideoRow'
-
 
 function SearchPage() {
     return (
@@ -87,6 +90,38 @@ function SearchPage() {
             channel="BLACKPINK"
             title="JENNIE - 'SOLO' M/V"
             image={solo} />
+
+            <VideoRow views="697M"
+            subs="54.6M"
+            description="BLACKPINK - 'How You Like That' 보란 듯이 무너졌어 바닥을 뚫고 저 지하까지 옷 끝자락 잡겠다고 저 높이 두 손을 뻗어봐도 다시 ..."
+            timestamp="5 months ago"
+            channel="BLACKPINK"
+            title="BLACKPINK - 'How You Like That' M/V"
+            image={how_you} /> 
+
+            <VideoRow views="440M"
+            subs="54.6M"
+            description="BLACKPINK - 'Ice Cream (with Selena Gomez)' Come a little closer cause you looking thirsty Imma make it better sip it like"
+            timestamp="3 months ago"
+            channel="BLACKPINK"
+            title="BLACKPINK - 'Ice Cream (with Selena Gomez)' M/V"
+            image={icecream} /> 
+
+            <VideoRow views="471M"
+            subs="54.6M"
+            description="MORE INFO ABOUT DANCE COVER CONTEST : https://bit.ly/2Z2UBy6 #BLACKPINK #블랙핑크"
+            timestamp="5 months ago"
+            channel="BLACKPINK"
+            title="BLACKPINK - 'How You Like That' DANCE PERFORMANCE VIDEO"
+            image={dance} /> 
+
+            <VideoRow views="8.5M"
+            subs="54.6M"
+            description="'블핑하우스 (BLACKPINK HOUSE)' EP.6ㅤㅤ ㅤㅤ ㅤㅤ [Online release & On-air] SAT. 9PM(KST): YouTube, V LIVE SUN."
+            timestamp="2 years ago"
+            channel="BLACKPINK"
+            title="BLACKPINK - ‘블핑하우스 (BLACKPINK HOUSE)’ EP.6-1"
+            image={house1} /> 
         </div>
     )
 }
