@@ -10,11 +10,14 @@ import WatchLaterIcon from '@material-ui/icons/WatchLater';
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import SidebarRow from "./SidebarRow";
+import {Link} from "react-router-dom";
 
 function Sidebar() {
     return (
         <div className="sidebar">
-            <SidebarRow selected Icon={HomeIcon} title="Home" />
+            <Link to="/" className="home__link">
+                <SidebarRow selected Icon={HomeIcon} title="Home" />
+            </Link>
             <SidebarRow Icon={WhatshotIcon} title="Trending" />
             <SidebarRow Icon={SubscriptionsIcon} title="Subscription" />
             <hr />

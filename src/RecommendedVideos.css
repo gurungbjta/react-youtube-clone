@@ -14,3 +14,8 @@
     display: flex; /* arrange them in horizontal row */
     flex-wrap: wrap; /* if they don't fit, wrap them up in next lines and is responsive by page size */
 }
+
+.recommendedVideos__videos > a{
+    text-decoration: none;
+    color: black;
+}
