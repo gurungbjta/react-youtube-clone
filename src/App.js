@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import RecommendedVideos from './RecommendedVideos'
+import SearchPage from './SearchPage';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
@@ -13,7 +14,10 @@ function App() {
         <Switch>
         {/* "/search:searchTerm" is going to take you to search/(whatever you type) */}
           <Route path="/search/:searchTerm">
-            <h1>Search Page</h1>
+            <div className="app__page">
+              <Sidebar />
+              <SearchPage />
+            </div>
           </Route>
           <Route path="/">
             <div className="app__page">
